@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
-
+//파일 내용 수정
+int n = 0;
 char *encrypt(char *dest, const char *src);
 char *decrypt(char *dest, const char *encryptstr);
 int main(void)
